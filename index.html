@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./index.js"></script>
+</head>
+
+<body>
+  <header class="container">
+    <div class="container__logo">
+      <img src="./images/logo.svg" alt="Logo">
+    </div>
+    <nav class="list__container">
+      <ul class="list__container--items">
+        <li class="list__container--links dropdown-menu">
+          Features
+          <img src="./images/icon-arrow-down.svg" alt="">
+          <ul class="sublist__container--items dropdown-left">
+            <li class="sublist__container--item"><img src="./images/icon-todo.svg" alt=""><span>Todo List</span></li>
+            <li class="sublist__container--item"><img src="./images/icon-calendar.svg" alt=""><span>Calendar</span>
+            </li>
+            <li class="sublist__container--item"><img src="./images/icon-reminders.svg" alt=""><span>Reminders</span>
+            </li>
+            <li class="sublist__container--item"><img src="./images/icon-calendar.svg" alt=""><span>Calendar</span>
+            </li>
+          </ul>
+        </li>
+        <li class="list__container--links dropdown-menu">Company <img src="./images/icon-arrow-down.svg" alt="">
+          <ul class="sublist__container--items  dropdown-right">
+            <li class="sublist__container--item">History</li>
+            <li class="sublist__container--item">Our Team</li>
+            <li class="sublist__container--item">Blog</li>
+          </ul>
+        </li>
+        <li class="list__container--links">Careers</li>
+        <li class="list__container--links">About</li>
+      </ul>
+      <ul class="list__container--items">
+        <li class="list__container--links">
+          <button>Login</button>
+        </li>
+        <li class="list__container--links">
+          <button class="register-btn">Register</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="hero__container">
+    <div class="hero__container--items">
+      <div class="hero__container--item">
+        <h1 class="hero__container--text">Make remote work</h1>
+        <p class="hero__container--statement">
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button class="hero__container--btn">Learn More</button>
+      </div>
+      <div class="hero__container--company">
+        <ul>
+          <li>
+            <img src="./images/client-databiz.svg" alt="Company Logo">
+          </li>
+          <li>
+            <img src="./images/client-audiophile.svg" alt="Company Logo">
+          </li>
+          <li>
+            <img src="./images/client-meet.svg" alt="Company Logo">
+          </li>
+          <li>
+            <img src="./images/client-maker.svg" alt="Company Logo">
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="hero__container--image">
+      <img src="./images/image-hero-desktop.png" alt="">
+    </div>
+  </main>
+</body>
+
+</html>
