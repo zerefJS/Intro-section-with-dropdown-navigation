@@ -64,8 +64,16 @@ body {
             align-items: center;
             position: relative;
             cursor: pointer;
-            gap: 4px;
+            gap: 6px;
             color: $medium-gray;
+
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+                display: inline-block;
+            }
 
             button {
                 cursor: pointer;

@@ -56,8 +56,15 @@ body {
   align-items: center;
   position: relative;
   cursor: pointer;
-  gap: 4px;
+  gap: 6px;
   color: hsl(0deg, 0%, 41%);
+}
+.container .list__container--links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  display: inline-block;
 }
 .container .list__container--links button {
   cursor: pointer;
