@@ -20,9 +20,11 @@
     </div>
     <nav class="list__container">
       <ul class="list__container--items">
+        <div class="close-menu">
+          <img src="./images/icon-close-menu.svg" alt="">
+        </div>
         <li class="list__container--links dropdown-menu">
           Features
-          <img src="./images/icon-arrow-down.svg" alt="">
           <ul class="sublist__container--items dropdown-left">
             <li class="sublist__container--item"><img src="./images/icon-todo.svg" alt=""><span>Todo List</span></li>
             <li class="sublist__container--item"><img src="./images/icon-calendar.svg" alt=""><span>Calendar</span>
@@ -33,7 +35,7 @@
             </li>
           </ul>
         </li>
-        <li class="list__container--links dropdown-menu">Company <img src="./images/icon-arrow-down.svg" alt="">
+        <li class="list__container--links dropdown-menu">Company
           <ul class="sublist__container--items  dropdown-right">
             <li class="sublist__container--item">History</li>
             <li class="sublist__container--item">Our Team</li>
@@ -43,7 +45,7 @@
         <li class="list__container--links">Careers</li>
         <li class="list__container--links">About</li>
       </ul>
-      <ul class="list__container--items">
+      <ul class="list__container--items btn-container">
         <li class="list__container--links">
           <button>Login</button>
         </li>
@@ -52,6 +54,9 @@
         </li>
       </ul>
     </nav>
+    <div class="open-menu">
+      <img src="./images/icon-menu.svg" alt="">
+    </div>
   </header>
   <main class="hero__container">
     <div class="hero__container--items">
@@ -81,7 +86,10 @@
       </div>
     </div>
     <div class="hero__container--image">
-      <img src="./images/image-hero-desktop.png" alt="">
+      <picture>
+        <source srcset="./images/image-hero-mobile.png" media="(max-width: 500px)" />
+        <img src="./images/image-hero-desktop.png" alt="">
+      </picture>
     </div>
   </main>
 </body>
